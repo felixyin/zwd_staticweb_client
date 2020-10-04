@@ -1,0 +1,39 @@
+{
+  "name": "zwd",
+  "version": "1.0.0",
+  "description": "昭乌达智慧党建信息平台",
+  "main": "main.js",
+  "build": {
+    "appId": "com.qdqtrj.fpms",
+    "productName":"昭乌达智慧党建信息平台",
+    "mac": {
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "zip"
+      ]
+    }
+  },
+  "scripts": {
+    "dist": "electron-builder -mwl",
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "昭乌达智慧党建信息平台"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^9.0.0",
+    "electron-builder": "^22.6.1"
+  },
+  "dependencies": {
+    "jsoneditor": "^8.6.8"
+  }
+}
